@@ -12,19 +12,19 @@ def test_ejemplo_siembra():
     assert True
 
 def test_es_palindromo_radar():
-    assert es_palindromo("radar") == True
+    assert es_palindromo("radar")
 
 def test_es_palindromo_anita_lava_la_tina():
-    assert es_palindromo("anita lava la tina") == True
+    assert es_palindromo("anita lava la tina")
 
 def test_es_palindromo_python():
-    assert es_palindromo("python") == False
+    assert not es_palindromo("python")
 
 def test_es_palindromo_vacio():
-    assert es_palindromo("") == True
+    assert es_palindromo("")
 
 def test_es_palindromo_Radar():
-    assert es_palindromo("Radar") == True
+    assert es_palindromo("Radar")
 
 def test_suma_numeros_aleatorios():
     assert suma(2, 3) == 5
